@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 仿真输出（由脚本重新生成）
+output/
+tmp/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Office 临时锁文件
+~$*
+
+# 大型媒体源素材（如另行还原）
+*.ndjson

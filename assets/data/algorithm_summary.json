@@ -1,0 +1,57 @@
+{
+  "project": "衣循 - 洗晒收纳一站式服务机器人",
+  "algorithms": [
+    "A*",
+    "Occupancy Grid SLAM",
+    "DWA",
+    "Phototropism",
+    "Voice Nav"
+  ],
+  "workflow_paths": [
+    {
+      "command": "去脏衣篮收衣服",
+      "goal": "脏衣篮",
+      "path_points": 16,
+      "length_m": 1.53
+    },
+    {
+      "command": "把衣服放到洗衣机",
+      "goal": "洗衣机",
+      "path_points": 20,
+      "length_m": 2.03
+    },
+    {
+      "command": "去阳台晾晒",
+      "goal": "阳台",
+      "path_points": 51,
+      "length_m": 5.73
+    },
+    {
+      "command": "送到智能柜收纳",
+      "goal": "智能柜",
+      "path_points": 16,
+      "length_m": 1.68
+    }
+  ],
+  "total_path_length_m": 10.97,
+  "slam_explored_percent": 76.7,
+  "phototropism": {
+    "9am_optimal": {
+      "x": 7.0,
+      "y": 5.2,
+      "I": 0.569
+    },
+    "12pm_optimal": {
+      "x": 7.0,
+      "y": 5.2,
+      "I": 0.608
+    }
+  },
+  "terrain_types": [
+    "普通地面",
+    "障碍",
+    "地毯",
+    "门槛",
+    "阳台滑轨"
+  ]
+}

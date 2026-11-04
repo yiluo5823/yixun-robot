@@ -1,0 +1,7 @@
+numpy>=1.20.0
+matplotlib>=3.5.0
+pillow>=9.0.0
+imageio>=2.9.0
+imageio-ffmpeg>=0.4.0
+
+# Optional MP4: also install system ffmpeg (winget install ffmpeg)
